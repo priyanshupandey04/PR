@@ -200,7 +200,7 @@ const PoliticalServices = (props: Props) => {
           <div className="flex flex-col items-center gap-4 h-full w-full justify-center">
             <div className="w-full flex justify-center items-center">
               <Image
-                src="/assets/opinionPoll.jpg"
+                src="/assets/opinionpoll.jpg"
                 alt="Logo"
                 width={220}
                 height={220}
@@ -474,7 +474,7 @@ const PoliticalServices = (props: Props) => {
                   <div className="flex md:block w-full">
                     <div className="w-full md:flex justify-center items-center ">
                       <Image
-                        src="/assets/opinionPoll.jpg"
+                        src="/assets/opinionpoll.jpg"
                         alt="Logo"
                         width={200}
                         height={200}
