@@ -9,7 +9,7 @@ import Image from "next/image";
 export default function Home() {
   return (
     <>
-      <div className="relative bg-[#010103] md:bg-transparent  w-full">
+      <div className="relative bg-[#010103] md:bg-transparent  w-full h-full overflow-x-hidden">
         <div
           style={{
             background:
@@ -18,7 +18,7 @@ export default function Home() {
           className="absolute -right-32 md:right-40 w-[500px] h-[500px] md:top-20 top-16 rounded-full blur-3xl  md:z-0 md:hidden"
         />
 
-        <div className="hidden md:block absolute md:w-[100%] md:h-[100%] w-[100rem] h-[100rem]  -z-20">
+        <div className="hidden md:block absolute md:w-[100%] md:h-[100%] w-[100rem] h-[100rem] -z-20">
           <DarkVeil />
         </div>
         <Header />
