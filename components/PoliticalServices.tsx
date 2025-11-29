@@ -18,11 +18,11 @@ const PoliticalServices = (props: Props) => {
       <div className="mb-10 mt-10 ">
         <GradientText
           colors={[
-            "#B54444FF",
-            "#D6DAE1FF",
-            "#A36464FF",
-            "#FAFBFFFF",
-            "#A85B5BFF",
+            "#7C3AED",
+            "#A4C9D0FF",
+            "#A78BFA",
+            "#60A5FA",
+            "#F7F6F9FF",
           ]}
           animationSpeed={2}
           showBorder={false}
@@ -31,15 +31,15 @@ const PoliticalServices = (props: Props) => {
           <h1 className="text-3xl flex gap-4 justify-center items-center">
             Our Political Services
             <span>
-              <ChevronDown className="text-white animate-bounce mt-3" />
+              <ChevronDown className="text-[#E6EEF8] animate-bounce mt-3" />
             </span>
           </h1>
         </GradientText>
       </div>
       {/* Laptop / Tablet Section */}
-      <div className="hidden md:flex flex-col md:flex-row">
+      <div className="hidden md:flex flex-col md:flex-row ">
         {/* Personal Branding */}
-        <div className="h-[10rem] md:h-[35rem] bg-[#8E1616] rounded-xl p-4 w-full md:w-60 hover:w-[70rem] transition-all duration-1000 md:duration-500 hover:bg-[#450606] flex justify-center items-center group overflow-hidden cursor-pointer ">
+        <div className="h-[10rem] md:h-[35rem]  bg-[#111827]/50 rounded-xl p-4 w-full md:w-60 hover:w-[70rem] transition-all duration-1000 md:duration-500 hover:bg-[#06101A]/80 flex justify-center items-center group overflow-hidden cursor-pointer backdrop-blur-xl">
           <div className="flex flex-col items-center gap-4 h-full w-full justify-center px-8 md:px-0">
             <div className="flex md:block gap-2">
               <div className="w-full md:flex justify-center items-center">
@@ -51,12 +51,12 @@ const PoliticalServices = (props: Props) => {
                   className="w-[120px] md:w-[200px]"
                 />
               </div>
-              <h1 className="text-white text-xl font-semibold font-sans text-center group-hover:text-yellow-100  justify-center items-center flex mt-5">
+              <h1 className="text-[#E6EEF8] text-xl font-semibold font-sans text-center group-hover:text-[#FDE68A]  justify-center items-center flex mt-5">
                 Personal Branding
               </h1>
             </div>
 
-            <p className="hidden md:group-hover:block group-active:block transition-all duration-1000 delay-700 text-white text-center">
+            <p className="hidden md:group-hover:block group-active:block transition-all duration-1000 delay-700 text-[#E6EEF8] text-center">
               Our personal branding service helps political leaders build a
               strong, credible, and influential public image. We craft
               compelling narratives, manage social media presence, enhance media
@@ -67,7 +67,7 @@ const PoliticalServices = (props: Props) => {
         </div>
 
         {/* Campaign Management */}
-        <div className="h-[10rem] md:h-[35rem] bg-[#E8C999] rounded-xl p-4 w-full md:w-60 hover:w-[70rem] transition-all duration-500  hover:bg-[#685539] flex justify-center items-center group overflow-hidden cursor-pointer">
+        <div className="h-[10rem] md:h-[35rem]  bg-[#111827]/50 rounded-xl p-4 w-full md:w-60 hover:w-[70rem] transition-all duration-1000 md:duration-500 hover:bg-[#06101A]/80 flex justify-center items-center group overflow-hidden cursor-pointer backdrop-blur-xl">
           <div className="flex flex-col items-center gap-4 h-full w-full justify-center">
             <div className="w-full flex justify-center items-center">
               <Image
@@ -78,11 +78,11 @@ const PoliticalServices = (props: Props) => {
                 className="mt-10"
               />
             </div>
-            <h1 className="text-black text-xl font-semibold font-sans text-center group-hover:text-black/90">
+            <h1 className="text-[#E6EEF8] text-xl font-semibold font-sans text-center group-hover:text-[#E6EEF8]/90">
               Campaign Management
             </h1>
 
-            <p className="hidden group-hover:block transition-all delay-700 text-white text-center">
+            <p className="hidden group-hover:block transition-all delay-700 text-[#E6EEF8] text-center">
               Our campaign management service handles planning and execution for
               election success. We analyze voter data, manage offline & digital
               strategies, coordinate field teams, build messaging, and track
@@ -93,7 +93,7 @@ const PoliticalServices = (props: Props) => {
         </div>
 
         {/* Social Media Advertisement */}
-        <div className="h-[10rem] md:h-[35rem] bg-[#8E1616] rounded-xl p-4 w-full md:w-60 hover:w-[70rem] transition-all duration-500 hover:bg-[#450606] flex justify-center items-center group overflow-hidden cursor-pointer">
+        <div className="h-[10rem] md:h-[35rem]  bg-[#111827]/50 rounded-xl p-4 w-full md:w-60 hover:w-[70rem] transition-all duration-1000 md:duration-500 hover:bg-[#06101A]/80 flex justify-center items-center group overflow-hidden cursor-pointer backdrop-blur-xl">
           <div className="flex flex-col items-center gap-4 h-full w-full justify-center">
             <div className="w-full flex justify-center items-center">
               <Image
@@ -104,11 +104,11 @@ const PoliticalServices = (props: Props) => {
                 className="mt-10"
               />
             </div>
-            <h1 className="text-white text-xl font-semibold font-sans text-center group-hover:text-yellow-100">
+            <h1 className="text-[#E6EEF8] text-xl font-semibold font-sans text-center group-hover:text-[#FDE68A]">
               Social Media Advertisement
             </h1>
 
-            <p className="hidden group-hover:block transition-all delay-700 text-white text-center">
+            <p className="hidden group-hover:block transition-all delay-700 text-[#E6EEF8] text-center">
               We create data-driven social media advertising campaigns to reach
               targeted voters across platforms like Facebook, Instagram,
               YouTube, X, and WhatsApp. Our strategy boosts engagement,
@@ -119,7 +119,7 @@ const PoliticalServices = (props: Props) => {
         </div>
 
         {/* Voter & Booth Management */}
-        <div className="h-[10rem] md:h-[35rem] bg-[#E8C999] rounded-xl p-4 w-full md:w-60 hover:w-[70rem] transition-all duration-500 hover:bg-[#685539] flex justify-center items-center group overflow-hidden cursor-pointer">
+        <div className="h-[10rem] md:h-[35rem]  bg-[#111827]/50 rounded-xl p-4 w-full md:w-60 hover:w-[70rem] transition-all duration-1000 md:duration-500 hover:bg-[#06101A]/80 flex justify-center items-center group overflow-hidden cursor-pointer backdrop-blur-xl">
           <div className="flex flex-col items-center gap-4 h-full w-full justify-center">
             <div className="w-full flex justify-center items-center">
               <Image
@@ -130,11 +130,11 @@ const PoliticalServices = (props: Props) => {
                 className="mt-15 rounded-2xl "
               />
             </div>
-            <h1 className="text-black text-xl font-semibold text-center">
+            <h1 className="text-[#E6EEF8] text-xl font-semibold text-center">
               Voter & Booth Management
             </h1>
 
-            <p className="hidden group-hover:block transition-all delay-700 text-white text-center">
+            <p className="hidden group-hover:block transition-all delay-700 text-[#E6EEF8] text-center">
               We manage booth-level strategies with accurate voter data,
               segmentation, volunteer training, voter turnout plans, and ground
               intelligence. Our structured booth management model ensures
@@ -145,7 +145,7 @@ const PoliticalServices = (props: Props) => {
         </div>
 
         {/* D2D Service */}
-        <div className="h-[10rem] md:h-[35rem] bg-[#8E1616] rounded-xl p-4 w-full md:w-60 hover:w-[70rem] transition-all duration-500 hover:bg-[#450606] flex justify-center items-center group overflow-hidden cursor-pointer">
+        <div className="h-[10rem] md:h-[35rem]  bg-[#111827]/50 rounded-xl p-4 w-full md:w-60 hover:w-[70rem] transition-all duration-1000 md:duration-500 hover:bg-[#06101A]/80 flex justify-center items-center group overflow-hidden cursor-pointer backdrop-blur-xl">
           <div className="flex flex-col items-center gap-4 h-full w-full justify-center">
             <div className="w-full flex justify-center items-center">
               <Image
@@ -156,11 +156,11 @@ const PoliticalServices = (props: Props) => {
                 className="mt-10 rounded-2xl"
               />
             </div>
-            <h1 className="text-white text-xl font-semibold text-center">
+            <h1 className="text-[#E6EEF8] text-xl font-semibold text-center">
               D2D (Door-to-Door) Service
             </h1>
 
-            <p className="hidden group-hover:block transition-all delay-700 text-white text-center">
+            <p className="hidden group-hover:block transition-all delay-700 text-[#E6EEF8] text-center">
               Our door-to-door campaign service ensures direct voter interaction
               with targeted messaging, issue-based communication, survey
               collection, and real-time feedback reporting. We create personal
@@ -171,7 +171,7 @@ const PoliticalServices = (props: Props) => {
         </div>
 
         {/* Election War Room */}
-        <div className="h-[10rem] md:h-[35rem] bg-[#E8C999] rounded-xl p-4 w-full md:w-60 hover:w-[70rem] transition-all duration-500 hover:bg-[#685539] flex justify-center items-center group overflow-hidden cursor-pointer">
+        <div className="h-[10rem] md:h-[35rem]  bg-[#111827]/50 rounded-xl p-4 w-full md:w-60 hover:w-[70rem] transition-all duration-1000 md:duration-500 hover:bg-[#06101A]/80 flex justify-center items-center group overflow-hidden cursor-pointer backdrop-blur-xl">
           <div className="flex flex-col items-center gap-4 h-full w-full justify-center">
             <div className="w-full flex justify-center items-center">
               <Image
@@ -182,11 +182,11 @@ const PoliticalServices = (props: Props) => {
                 className="mt-10 rounded-2xl"
               />
             </div>
-            <h1 className="text-black text-xl font-semibold text-center">
+            <h1 className="text-[#E6EEF8] text-xl font-semibold text-center">
               Election War Room
             </h1>
 
-            <p className="hidden group-hover:block transition-all delay-700 text-white text-center">
+            <p className="hidden group-hover:block transition-all delay-700 text-[#E6EEF8] text-center">
               Our election war room monitors ground activity, public sentiment,
               social media trends, and competitor moves in real time. We provide
               rapid data analysis, crisis response, and strategy adjustments to
@@ -196,7 +196,7 @@ const PoliticalServices = (props: Props) => {
         </div>
 
         {/* Opinion & Exit Poll */}
-        <div className="h-[10rem] md:h-[35rem] bg-[#8E1616] rounded-xl p-4 w-full md:w-60 hover:w-[70rem] transition-all duration-500 hover:bg-[#450606] flex justify-center items-center group overflow-hidden cursor-pointer">
+        <div className="h-[10rem] md:h-[35rem]  bg-[#111827]/50 rounded-xl p-4 w-full md:w-60 hover:w-[70rem] transition-all duration-1000 md:duration-500 hover:bg-[#06101A]/80 flex justify-center items-center group overflow-hidden cursor-pointer backdrop-blur-xl">
           <div className="flex flex-col items-center gap-4 h-full w-full justify-center">
             <div className="w-full flex justify-center items-center">
               <Image
@@ -207,11 +207,11 @@ const PoliticalServices = (props: Props) => {
                 className="mt-10 rounded-2xl"
               />
             </div>
-            <h1 className="text-white text-xl font-semibold text-center">
+            <h1 className="text-[#E6EEF8] text-xl font-semibold text-center">
               Opinion Poll & Exit Poll
             </h1>
 
-            <p className="hidden group-hover:block transition-all delay-700 text-white text-center">
+            <p className="hidden group-hover:block transition-all delay-700 text-[#E6EEF8] text-center">
               Our expert opinion & exit polls deliver accurate insights using
               advanced data collection, research analytics, and voter behavior
               studies. We measure public mood, predict outcomes, and help refine
@@ -226,8 +226,8 @@ const PoliticalServices = (props: Props) => {
         <Accordion type="single" collapsible className="w-full">
           {/* Personal Branding */}
           <AccordionItem value="item-1">
-            <AccordionTrigger className="bg-[#c02121] group data-[state=open]:bg-[#8E1616] data-[state=open]:bg-[#8E1616]">
-              <div className="h-[6.2rem] group-data-[state=open]:h-[10rem] w-full transition-all flex justify-center items-center overflow-hidden cursor-pointer">
+            <AccordionTrigger className="bg-[#111827] group data-[state=open]:bg-[#111827] data-[state=open]:bg-[#111827]">
+              <div className="h-[3.5rem] group-data-[state=open]:h-[10rem] w-full transition-all flex justify-center items-center overflow-hidden cursor-pointer">
                 <div className="flex flex-col items-center h-full w-full justify-center px-5 group-data-[state=open]:px-0">
                   <div className="flex md:block w-full">
                     <div className="w-full md:flex justify-center items-center ">
@@ -241,7 +241,7 @@ const PoliticalServices = (props: Props) => {
                     </div>
 
                     {/* 👇 This H1 hides when accordion opens */}
-                    <h1 className="trigger-title text-white text-xl font-semibold font-sans text-center justify-center items-center flex w-full text-nowrap group-data-[state=open]:hidden ">
+                    <h1 className="trigger-title text-[#E6EEF8] text-xl font-semibold font-sans text-center justify-center items-center flex w-full text-nowrap group-data-[state=open]:hidden ">
                       Personal Branding
                     </h1>
                   </div>
@@ -250,11 +250,11 @@ const PoliticalServices = (props: Props) => {
             </AccordionTrigger>
 
             <AccordionContent className="flex flex-col gap-4 text-balance">
-              <div className="bg-[#8E1616] p-4 rounded-b-xl">
-                <h1 className="text-yellow-100 text-[1.3rem] font-semibold font-sans text-center mb-2">
+              <div className="bg-[#111827] p-4 rounded-b-xl">
+                <h1 className="text-[#FDE68A] text-[1.3rem] font-semibold font-sans text-center mb-2">
                   Personal Branding
                 </h1>
-                <p className="text-white/80 text-center text-base">
+                <p className="text-[#E6EEF8]/80 text-center text-base">
                   Our personal branding service helps political leaders build a
                   strong, credible, and influential public image. We craft
                   compelling narratives, manage social media presence, enhance
@@ -267,8 +267,8 @@ const PoliticalServices = (props: Props) => {
 
           {/* Campaign Management */}
           <AccordionItem value="item-2">
-            <AccordionTrigger className="bg-[#E8C999] group data-[state=open]:bg-[#846d4a] ">
-              <div className="h-[6.2rem] group-data-[state=open]:h-[10rem] w-full transition-all flex justify-center items-center overflow-hidden cursor-pointer">
+            <AccordionTrigger className="bg-[#0F1724] group data-[state=open]:bg-[#0B1220] ">
+              <div className="h-[3.5rem] group-data-[state=open]:h-[10rem] w-full transition-all flex justify-center items-center overflow-hidden cursor-pointer">
                 <div className="flex flex-col items-center h-full w-full justify-center px-5 group-data-[state=open]:px-0">
                   <div className="flex md:block w-full">
                     <div className="w-full md:flex justify-center items-center ">
@@ -282,7 +282,7 @@ const PoliticalServices = (props: Props) => {
                     </div>
 
                     {/* 👇 This H1 hides when accordion opens */}
-                    <h1 className=" text-black text-xl font-semibold font-sans text-center justify-center items-center flex w-full  group-data-[state=open]:hidden ">
+                    <h1 className=" text-[#E6EEF8] text-xl font-semibold font-sans text-center justify-center items-center flex w-full  group-data-[state=open]:hidden ">
                       Campaign Management
                     </h1>
                   </div>
@@ -291,11 +291,11 @@ const PoliticalServices = (props: Props) => {
             </AccordionTrigger>
 
             <AccordionContent className="flex flex-col gap-4 text-balance ">
-              <div className=" bg-[#846d4a] p-4 rounded-b-xl">
-                <h1 className="text-amber-200 text-[1.3rem] font-semibold font-sans text-center mb-2">
+              <div className=" bg-[#0B1220] p-4 rounded-b-xl">
+                <h1 className="text-[#FDE68A] text-[1.3rem] font-semibold font-sans text-center mb-2">
                   Campaign Management
                 </h1>
-                <p className=" transition-all delay-700 text-white/80 text-center text-base">
+                <p className=" transition-all delay-700 text-[#E6EEF8] text-center text-base">
                   Our campaign management service handles planning and execution
                   for election success. We analyze voter data, manage offline &
                   digital strategies, coordinate field teams, build messaging,
@@ -308,8 +308,8 @@ const PoliticalServices = (props: Props) => {
 
           {/* Social Media Advertisement */}
           <AccordionItem value="item-3">
-            <AccordionTrigger className="bg-[#c02121] group data-[state=open]:bg-[#8E1616]">
-              <div className="h-[6.2rem] group-data-[state=open]:h-[10rem] w-full transition-all flex justify-center items-center overflow-hidden cursor-pointer">
+            <AccordionTrigger className="bg-[#111827] group data-[state=open]:bg-[#111827]">
+              <div className="h-[3.5rem] group-data-[state=open]:h-[10rem] w-full transition-all flex justify-center items-center overflow-hidden cursor-pointer">
                 <div className="flex flex-col items-center h-full w-full justify-center px-5 group-data-[state=open]:px-0">
                   <div className="flex md:block w-full">
                     <div className="w-full md:flex justify-center items-center ">
@@ -322,7 +322,7 @@ const PoliticalServices = (props: Props) => {
                       />
                     </div>
 
-                    <h1 className="trigger-title text-white text-xl font-semibold font-sans text-center justify-center items-center flex w-full  group-data-[state=open]:hidden ">
+                    <h1 className="trigger-title text-[#E6EEF8] text-xl font-semibold font-sans text-center justify-center items-center flex w-full  group-data-[state=open]:hidden ">
                       Social Media Advertisement
                     </h1>
                   </div>
@@ -331,11 +331,11 @@ const PoliticalServices = (props: Props) => {
             </AccordionTrigger>
 
             <AccordionContent className="flex flex-col gap-4 text-balance">
-              <div className="bg-[#8E1616] p-4 rounded-b-xl">
-                <h1 className="text-yellow-100 text-[1.3rem] font-semibold font-sans text-center mb-2">
+              <div className="bg-[#111827] p-4 rounded-b-xl">
+                <h1 className="text-[#FDE68A] text-[1.3rem] font-semibold font-sans text-center mb-2">
                   Social Media Advertisement
                 </h1>
-                <p className="text-white/80 text-center text-base">
+                <p className="text-[#E6EEF8] text-center text-base">
                   We create data-driven social media advertising campaigns to
                   reach targeted voters across platforms like Facebook,
                   Instagram, YouTube, X, and WhatsApp. Our strategy boosts
@@ -348,8 +348,8 @@ const PoliticalServices = (props: Props) => {
 
           {/* Voter & Booth Management */}
           <AccordionItem value="item-4">
-            <AccordionTrigger className="bg-[#E8C999] group data-[state=open]:bg-[#846d4a]">
-              <div className="h-[6.2rem] group-data-[state=open]:h-[10rem] w-full transition-all flex justify-center items-center overflow-hidden cursor-pointer">
+            <AccordionTrigger className="bg-[#0F1724] group data-[state=open]:bg-[#0B1220]">
+              <div className="h-[3.5rem] group-data-[state=open]:h-[10rem] w-full transition-all flex justify-center items-center overflow-hidden cursor-pointer">
                 <div className="flex flex-col items-center h-full w-full justify-center px-5 group-data-[state=open]:px-0">
                   <div className="flex md:block w-full">
                     <div className="w-full md:flex justify-center items-center ">
@@ -362,7 +362,7 @@ const PoliticalServices = (props: Props) => {
                       />
                     </div>
 
-                    <h1 className="trigger-title text-black text-xl font-semibold font-sans text-center justify-center items-center flex w-full  group-data-[state=open]:hidden ">
+                    <h1 className="trigger-title text-[#E6EEF8] text-xl font-semibold font-sans text-center justify-center items-center flex w-full  group-data-[state=open]:hidden ">
                       Voter &amp; Booth Management
                     </h1>
                   </div>
@@ -371,11 +371,11 @@ const PoliticalServices = (props: Props) => {
             </AccordionTrigger>
 
             <AccordionContent className="flex flex-col gap-4 text-balance">
-              <div className=" bg-[#846d4a] p-4 rounded-b-xl">
-                <h1 className="text-amber-200 text-[1.3rem] font-semibold font-sans text-center mb-2">
+              <div className=" bg-[#0B1220] p-4 rounded-b-xl">
+                <h1 className="text-[#FDE68A] text-[1.3rem] font-semibold font-sans text-center mb-2">
                   Voter &amp; Booth Management
                 </h1>
-                <p className=" transition-all delay-700 text-white/80 text-center text-base">
+                <p className=" transition-all delay-700 text-[#E6EEF8] text-center text-base">
                   We manage booth-level strategies with accurate voter data,
                   segmentation, volunteer training, voter turnout plans, and
                   ground intelligence. Our structured booth management model
@@ -388,8 +388,8 @@ const PoliticalServices = (props: Props) => {
 
           {/* D2D Service */}
           <AccordionItem value="item-5">
-            <AccordionTrigger className="bg-[#c02121] group data-[state=open]:bg-[#8E1616]">
-              <div className="h-[6.2rem] group-data-[state=open]:h-[10rem] w-full transition-all flex justify-center items-center overflow-hidden cursor-pointer">
+            <AccordionTrigger className="bg-[#111827] group data-[state=open]:bg-[#111827]">
+              <div className="h-[3.5rem] group-data-[state=open]:h-[10rem] w-full transition-all flex justify-center items-center overflow-hidden cursor-pointer">
                 <div className="flex flex-col items-center h-full w-full justify-center px-5 group-data-[state=open]:px-0">
                   <div className="flex md:block w-full">
                     <div className="w-full md:flex justify-center items-center ">
@@ -402,7 +402,7 @@ const PoliticalServices = (props: Props) => {
                       />
                     </div>
 
-                    <h1 className="trigger-title text-white text-xl font-semibold font-sans text-center justify-center items-center flex w-full  group-data-[state=open]:hidden ">
+                    <h1 className="trigger-title text-[#E6EEF8] text-xl font-semibold font-sans text-center justify-center items-center flex w-full  group-data-[state=open]:hidden ">
                       D2D (Door-to-Door) Service
                     </h1>
                   </div>
@@ -411,11 +411,11 @@ const PoliticalServices = (props: Props) => {
             </AccordionTrigger>
 
             <AccordionContent className="flex flex-col gap-4 text-balance">
-              <div className="bg-[#8E1616] p-4 rounded-b-xl">
-                <h1 className="text-yellow-100 text-[1.3rem] font-semibold font-sans text-center mb-2">
+              <div className="bg-[#111827] p-4 rounded-b-xl">
+                <h1 className="text-[#FDE68A] text-[1.3rem] font-semibold font-sans text-center mb-2">
                   D2D (Door-to-Door) Service
                 </h1>
-                <p className="text-white/80 text-center text-base">
+                <p className="text-[#E6EEF8] text-center text-base">
                   Our door-to-door campaign service ensures direct voter
                   interaction with targeted messaging, issue-based
                   communication, survey collection, and real-time feedback
@@ -428,8 +428,8 @@ const PoliticalServices = (props: Props) => {
 
           {/* Election War Room */}
           <AccordionItem value="item-6">
-            <AccordionTrigger className="bg-[#E8C999] group data-[state=open]:bg-[#846d4a]">
-              <div className="h-[6.2rem] group-data-[state=open]:h-[10rem] w-full transition-all flex justify-center items-center overflow-hidden cursor-pointer">
+            <AccordionTrigger className="bg-[#0F1724] group data-[state=open]:bg-[#0B1220]">
+              <div className="h-[3.5rem] group-data-[state=open]:h-[10rem] w-full transition-all flex justify-center items-center overflow-hidden cursor-pointer">
                 <div className="flex flex-col items-center h-full w-full justify-center px-5 group-data-[state=open]:px-0">
                   <div className="flex md:block w-full">
                     <div className="w-full md:flex justify-center items-center ">
@@ -442,7 +442,7 @@ const PoliticalServices = (props: Props) => {
                       />
                     </div>
 
-                    <h1 className="trigger-title text-black text-xl font-semibold font-sans text-center justify-center items-center flex w-full  group-data-[state=open]:hidden ">
+                    <h1 className="trigger-title text-[#E6EEF8] text-xl font-semibold font-sans text-center justify-center items-center flex w-full  group-data-[state=open]:hidden ">
                       Election War Room
                     </h1>
                   </div>
@@ -451,11 +451,11 @@ const PoliticalServices = (props: Props) => {
             </AccordionTrigger>
 
             <AccordionContent className="flex flex-col gap-4 text-balance">
-              <div className=" bg-[#846d4a] p-4 rounded-b-xl">
-                <h1 className="text-amber-200 text-[1.3rem] font-semibold font-sans text-center mb-2">
+              <div className=" bg-[#0B1220] p-4 rounded-b-xl">
+                <h1 className="text-[#FDE68A] text-[1.3rem] font-semibold font-sans text-center mb-2">
                   Election War Room
                 </h1>
-                <p className=" transition-all delay-700 text-white/80 text-center text-base">
+                <p className=" transition-all delay-700 text-[#E6EEF8] text-center text-base">
                   Our election war room monitors ground activity, public
                   sentiment, social media trends, and competitor moves in real
                   time. We provide rapid data analysis, crisis response, and
@@ -468,8 +468,8 @@ const PoliticalServices = (props: Props) => {
 
           {/* Opinion & Exit Poll */}
           <AccordionItem value="item-7">
-            <AccordionTrigger className="bg-[#c02121] group data-[state=open]:bg-[#8E1616]">
-              <div className="h-[6.2rem] group-data-[state=open]:h-[10rem] w-full transition-all flex justify-center items-center overflow-hidden cursor-pointer">
+            <AccordionTrigger className="bg-[#111827] group data-[state=open]:bg-[#111827]">
+              <div className="h-[3.5rem] group-data-[state=open]:h-[10rem] w-full transition-all flex justify-center items-center overflow-hidden cursor-pointer">
                 <div className="flex flex-col items-center h-full w-full justify-center px-5 group-data-[state=open]:px-0">
                   <div className="flex md:block w-full">
                     <div className="w-full md:flex justify-center items-center ">
@@ -482,7 +482,7 @@ const PoliticalServices = (props: Props) => {
                       />
                     </div>
 
-                    <h1 className="trigger-title text-white text-xl font-semibold font-sans text-center justify-center items-center flex w-full  group-data-[state=open]:hidden ">
+                    <h1 className="trigger-title text-[#E6EEF8] text-xl font-semibold font-sans text-center justify-center items-center flex w-full  group-data-[state=open]:hidden ">
                       Opinion Poll &amp; Exit Poll
                     </h1>
                   </div>
@@ -491,11 +491,11 @@ const PoliticalServices = (props: Props) => {
             </AccordionTrigger>
 
             <AccordionContent className="flex flex-col gap-4 text-balance">
-              <div className="bg-[#8E1616] p-4 rounded-b-xl">
-                <h1 className="text-yellow-100 text-[1.3rem] font-semibold font-sans text-center mb-2">
+              <div className="bg-[#111827] p-4 rounded-b-xl">
+                <h1 className="text-[#FDE68A] text-[1.3rem] font-semibold font-sans text-center mb-2">
                   Opinion Poll &amp; Exit Poll
                 </h1>
-                <p className="text-white/80 text-center text-base">
+                <p className="text-[#E6EEF8] text-center text-base">
                   Our expert opinion &amp; exit polls deliver accurate insights
                   using advanced data collection, research analytics, and voter
                   behavior studies. We measure public mood, predict outcomes,
