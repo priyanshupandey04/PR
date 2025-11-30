@@ -22,17 +22,17 @@ const NewsWorkedWith = () => {
     {
       id: 1,
       name: "Aaj Tak",
-      image: "/assets/news/AajTak.png",
+      image: "/assets/News/AajTak.png",
     },
     {
       id: 2,
       name: "ABP News",
-      image: "/assets/news/ABPNews.png",
+      image: "/assets/News/ABPNews.png",
     },
     {
       id: 3,
       name: "NDTV",
-      image: "/assets/news/NDTV.png",
+      image: "/assets/News/NDTV.png",
     },
     {
       id: 4,
@@ -42,7 +42,7 @@ const NewsWorkedWith = () => {
     {
       id: 5,
       name: "Zee News",
-      image: "/assets/news/ZeeNews.png",
+      image: "/assets/News/ZeeNews.png",
     },
   ];
 
