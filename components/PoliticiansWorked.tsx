@@ -67,7 +67,7 @@ const PoliticiansWorked = (props: Props) => {
     {
       id: 8,
       name: "Mr. Amit Shah",
-      image: "/assets/politician/amitshah.png",
+      image: "/assets/politician/amitShah.png",
       party: "Bhartiya Janta Party",
     },
   ];

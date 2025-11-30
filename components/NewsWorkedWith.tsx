@@ -9,7 +9,6 @@ import {
 } from "@/components/ui/carousel";
 import { ChevronDown } from "lucide-react";
 import GradientText from "./GradientText";
-import Image from "next/image";
 
 type News = {
   id: number;
@@ -36,13 +35,13 @@ const NewsWorkedWith = () => {
     },
     {
       id: 4,
-      name: "News18",
-      image: "/assets/news/News18India.png",
+      name: "News 18 India",
+      image: "/assets/News/News18India.png",
     },
     {
       id: 5,
       name: "Zee News",
-      image: "/assets/News/ZeeNews.png",
+      image: "/assets/News/Zeenews.png",
     },
   ];
 
