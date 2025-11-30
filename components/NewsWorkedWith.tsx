@@ -11,85 +11,54 @@ import { ChevronDown } from "lucide-react";
 import GradientText from "./GradientText";
 import Image from "next/image";
 
-type Politician = {
+type News = {
   id: number;
   name: string;
   image: string;
-  party?: string;
 };
 
 const NewsWorkedWith = () => {
-  const politicians: Politician[] = [
+  const news: News[] = [
     {
       id: 1,
-      name: "Mr. Narendra Modi",
-      image: "/assets/politician/modi.png",
-      party: "Bhartiya Janta Party",
+      name: "Aaj Tak",
+      image: "/assets/news/AajTak.png",
     },
     {
       id: 2,
-      name: "Mr. Rahul Gandhi",
-      image: "/assets/politician/rahul.png",
-      party: "Congress",
+      name: "ABP News",
+      image: "/assets/news/ABPNews.png",
     },
-
     {
       id: 3,
-      name: "Mr. Arvind Kejriwal",
-      image: "/assets/politician/arvind.png",
-      party: "AAP",
+      name: "NDTV",
+      image: "/assets/news/NDTV.png",
     },
     {
       id: 4,
-      name: "Mr. Akhilesh Yadav",
-      image: "/assets/politician/akhilesh.png",
-      party: "Samajwadi Party",
+      name: "News18",
+      image: "/assets/news/News18India.png",
     },
     {
       id: 5,
-      name: "Mr. Yogi Adityanath",
-      image: "/assets/politician/yogi.png",
-      party: "Bhartiya Janta Party",
-    },
-    {
-      id: 6,
-      name: "Mr. Mamta Banerjee",
-      image: "/assets/politician/mamta.png",
-      party: "TMC",
-    },
-    {
-      id: 7,
-      name: "Mr. Rajnath Singh",
-      image: "/assets/politician/rajnath.png",
-      party: "Bhartiya Janta Party",
-    },
-    {
-      id: 8,
-      name: "Mr. Amit Shah",
-      image: "/assets/politician/amitshah.png",
-      party: "Bhartiya Janta Party",
+      name: "Zee News",
+      image: "/assets/news/ZeeNews.png",
     },
   ];
 
   return (
-    <div className="w-full my-12">
+    <div className="w-full my-12 overflow-y-hidden">
       <div className="mb-10">
         <GradientText
-          colors={[
-            "#B54444FF",
-            "#D6DAE1FF",
-            "#A36464FF",
-            "#FAFBFFFF",
-            "#A85B5BFF",
-          ]}
+          colors={["#7C3AED", "#A4C9D0FF", "#A78BFA", "#60A5FA", "#F7F6F9FF"]}
           animationSpeed={2}
           showBorder={false}
-          className="custom-class "
+          className="custom-class"
         >
           <h1 className="text-3xl flex gap-4 justify-center items-center">
-            Politicians Worked With
+            News Worked With
             <span>
-              <ChevronDown className="text-white animate-bounce mt-3" />
+              <ChevronDown className="text-[#E6EEF8] animate-bounce mt-3" />
             </span>
           </h1>
         </GradientText>
@@ -102,29 +71,21 @@ const NewsWorkedWith = () => {
         className="w-[95%] md:w-[90%] mx-auto"
       >
         <CarouselContent>
-          {politicians.map((politician, index) => (
-            <CarouselItem
-              key={politician.id}
-              className="md:basis-1/2 lg:basis-1/3"
-            >
+          {news.map((item, index) => (
+            <CarouselItem key={item.id} className="md:basis-1/2 lg:basis-1/3">
               <div className="">
-                <Card className="bg-black h-fit">
-                  <CardContent className="flex aspect-square items-center justify-center ">
+                <Card className="bg-black border-0">
+                  <CardContent className="flex  items-center justify-center ">
                     <div className=" h-full w-full">
-                      <Image
-                        src={politician.image}
+                      <img
+                        src={item.image}
                         alt="Logo"
-                        width={250}
-                        height={250}
-                        className="w-[83%] h-[83%] object-cover  rounded-xl mx-auto"
+                        className="w-[90%] h-[50%] object-center  rounded-xl mx-auto "
                       />
                       <div className="mt-5">
                         <h1 className="text-xl md:text-2xl font-bold text-center text-white">
-                          {politician.name}
+                          {item.name}
                         </h1>
-                        <p className="text-white/80 text-center text-base  md:text-lg">
-                          {politician.party}
-                        </p>
                       </div>
                     </div>
                   </CardContent>

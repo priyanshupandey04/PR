@@ -76,21 +76,15 @@ const PoliticiansWorked = (props: Props) => {
     <div className="w-full my-12">
       <div className="mb-10">
         <GradientText
-          colors={[
-            "#B54444FF",
-            "#D6DAE1FF",
-            "#A36464FF",
-            "#FAFBFFFF",
-            "#A85B5BFF",
-          ]}
+          colors={["#7C3AED", "#A4C9D0FF", "#A78BFA", "#60A5FA", "#F7F6F9FF"]}
           animationSpeed={2}
           showBorder={false}
-          className="custom-class "
+          className="custom-class"
         >
           <h1 className="text-3xl flex gap-4 justify-center items-center">
             Politicians Worked With
             <span>
-              <ChevronDown className="text-white animate-bounce mt-3" />
+              <ChevronDown className="text-[#E6EEF8] animate-bounce mt-3" />
             </span>
           </h1>
         </GradientText>
@@ -109,10 +103,10 @@ const PoliticiansWorked = (props: Props) => {
               className="md:basis-1/2 lg:basis-1/3"
             >
               <div className="">
-                <Card className="bg-black h-fit">
+                <Card className="bg-black h-fit border-0">
                   <CardContent className="flex aspect-square items-center justify-center ">
                     <div className=" h-full w-full">
-                      <Image
+                      <img
                         src={politician.image}
                         alt="Logo"
                         width={250}
